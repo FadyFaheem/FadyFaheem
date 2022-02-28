@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Flance-s
 - 👀 I’m interested in breaking stuff and coding
-- 🌱 I’m currently learning Python, C#, Swift, .NET
+- 🌱 I’m currently learning or have learned Python, C#, Swift, TypeScript, .NET, Angular
 - 📫 How to reach me - fadyfaheem@hotmail.com
 - 📝 Resume linked in repository!
 <!---

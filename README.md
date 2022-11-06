@@ -5,7 +5,7 @@
 
 - 🌱 I’m currently learning and close to finishing **Android Development**
 
-- 👨‍💻 All of my projects are available at [fadyfaheem.com](fadyfaheem.com)
+- 👨‍💻 All of my projects are available at [fadyfaheem.com](https://www.fadyfaheem.com)
 
 - 📫 How to reach me **fadyfaheem@hotmail.com**
 

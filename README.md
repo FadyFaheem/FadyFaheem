@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **fadyfaheem@hotmail.com**
 
-- 📄 Know about my experiences [Resume](https://github.com/FadyFaheem/FadyFaheem/blob/main/Resume.psd)
+- 📄 Know about my experiences - [Resume](https://github.com/FadyFaheem/FadyFaheem/blob/main/Resume.psd)
 
 - ⚡ Fun fact **I'm multi-langual!**
 

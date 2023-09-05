@@ -23,4 +23,5 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=fadyfaheem&label=Profile%20views&color=b40e0e&style=flat" alt="fadyfaheem" /> </p>
 
 
-![Fady's GitHub stats](https://github-readme-stats.vercel.app/api?username=fadyfaheem&count_private=true&theme=dracula&include_all_commits=true)
+![Fady's GitHub stats](https://github-readme-stats.vercel.app/api?username=fadyfaheem&show_icons=true&theme=transparent)
+

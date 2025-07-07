@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Fady Faheem</h1>
-<h3 align="center">I'm a 19-year-old with a strong passion for programming. I look toward meeting my goals and surpassing expectations.</h3>
+<h3 align="center">I'm a 20-year-old with a strong passion for programming. I look toward meeting my goals and surpassing expectations.</h3>
 
 - 🔭 I’m currently working on [Rotary Compression Tool (REKT-Mini)](https://github.com/FadyFaheem/REKT-Mini)
 

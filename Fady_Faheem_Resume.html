@@ -1,407 +1,555 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fady Faheem - Software Engineer</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Calibri", "Arial", sans-serif;
+        line-height: 1.3;
+        color: #222;
+        background: #fff;
+        padding: 0.4in;
+        max-width: 8.5in;
+        margin: 0 auto;
+      }
+
+      h1 {
+        font-size: 28pt;
+        font-weight: bold;
+        margin-bottom: 2pt;
+        color: #1a1a1a;
+      }
+
+      .contact-info {
+        font-size: 10pt;
+        margin-bottom: 8pt;
+        color: #444;
+        line-height: 1.3;
+      }
+
+      .contact-info a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+
+      h2 {
+        font-size: 13pt;
+        font-weight: bold;
+        margin-top: 10pt;
+        margin-bottom: 5pt;
+        padding-bottom: 2pt;
+        border-bottom: 2px solid #333;
+        text-transform: uppercase;
+        color: #1a1a1a;
+      }
+
+      h3 {
+        font-size: 11pt;
+        font-weight: bold;
+        margin-bottom: 2pt;
+      }
+
+      .job-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 2pt;
+      }
+
+      .job-title {
+        font-size: 11pt;
+        font-weight: bold;
+      }
+
+      .job-company {
+        font-size: 11pt;
+        font-weight: bold;
+        color: #333;
+      }
+
+      .job-dates {
+        font-size: 10pt;
+        color: #555;
+        font-style: italic;
+      }
+
+      .job-location {
+        font-size: 10pt;
+        color: #555;
+        margin-bottom: 4pt;
+      }
+
+      ul {
+        margin-left: 20pt;
+        margin-bottom: 6pt;
+      }
+
+      li {
+        font-size: 10pt;
+        margin-bottom: 2pt;
+        line-height: 1.3;
+      }
+
+      .summary {
+        font-size: 10pt;
+        margin-bottom: 5pt;
+        text-align: justify;
+        line-height: 1.4;
+      }
+
+      .skills-section {
+        font-size: 10pt;
+        margin-bottom: 2pt;
+      }
+
+      .skills-category {
+        font-weight: bold;
+        display: inline;
+      }
+
+      .skills-list {
+        display: inline;
+      }
+
+      .project-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 2pt;
+      }
+
+      .project-name {
+        font-size: 11pt;
+        font-weight: bold;
+      }
+
+      .project-tech {
+        font-size: 10pt;
+        color: #555;
+        font-style: italic;
+      }
+
+      .cert-item {
+        margin-bottom: 3pt;
+      }
+
+      .cert-section {
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+
+      .skills-container {
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+
+      .summary-section {
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+
+      .cert-name {
+        font-size: 10pt;
+        font-weight: bold;
+      }
+
+      .cert-details {
+        font-size: 9pt;
+        color: #555;
+      }
+
+      strong {
+        font-weight: bold;
+      }
+
+      .job-section {
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+
+      .project-section {
+        page-break-inside: avoid;
+        break-inside: avoid;
+      }
+
+      @media print {
         body {
-            font-family: 'Calibri', 'Arial', sans-serif;
-            line-height: 1.3;
-            color: #222;
-            background: #fff;
-            padding: 0.4in;
-            max-width: 8.5in;
-            margin: 0 auto;
+          padding: 0.35in;
         }
-        
-        h1 {
-            font-size: 28pt;
-            font-weight: bold;
-            margin-bottom: 2pt;
-            color: #1a1a1a;
-        }
-        
-        .contact-info {
-            font-size: 10pt;
-            margin-bottom: 8pt;
-            color: #444;
-            line-height: 1.3;
-        }
-        
-        .contact-info a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        
-        h2 {
-            font-size: 13pt;
-            font-weight: bold;
-            margin-top: 10pt;
-            margin-bottom: 5pt;
-            padding-bottom: 2pt;
-            border-bottom: 2px solid #333;
-            text-transform: uppercase;
-            color: #1a1a1a;
-        }
-        
-        h3 {
-            font-size: 11pt;
-            font-weight: bold;
-            margin-bottom: 2pt;
-        }
-        
-        .job-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 2pt;
-        }
-        
-        .job-title {
-            font-size: 11pt;
-            font-weight: bold;
-        }
-        
-        .job-company {
-            font-size: 11pt;
-            font-weight: bold;
-            color: #333;
-        }
-        
-        .job-dates {
-            font-size: 10pt;
-            color: #555;
-            font-style: italic;
-        }
-        
-        .job-location {
-            font-size: 10pt;
-            color: #555;
-            margin-bottom: 4pt;
-        }
-        
-        ul {
-            margin-left: 20pt;
-            margin-bottom: 6pt;
-        }
-        
-        li {
-            font-size: 10pt;
-            margin-bottom: 2pt;
-            line-height: 1.3;
-        }
-        
-        .summary {
-            font-size: 10pt;
-            margin-bottom: 5pt;
-            text-align: justify;
-            line-height: 1.4;
-        }
-        
-        .skills-section {
-            font-size: 10pt;
-            margin-bottom: 2pt;
-        }
-        
-        .skills-category {
-            font-weight: bold;
-            display: inline;
-        }
-        
-        .skills-list {
-            display: inline;
-        }
-        
-        .project-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-            margin-bottom: 2pt;
-        }
-        
-        .project-name {
-            font-size: 11pt;
-            font-weight: bold;
-        }
-        
-        .project-tech {
-            font-size: 10pt;
-            color: #555;
-            font-style: italic;
-        }
-        
-        .cert-item {
-            margin-bottom: 3pt;
-        }
-        
-        .cert-section {
-            page-break-inside: avoid;
-            break-inside: avoid;
-        }
-        
-        .skills-container {
-            page-break-inside: avoid;
-            break-inside: avoid;
-        }
-        
+
         .summary-section {
-            page-break-inside: avoid;
-            break-inside: avoid;
+          page-break-inside: avoid;
+          break-inside: avoid;
         }
-        
-        .cert-name {
-            font-size: 10pt;
-            font-weight: bold;
-        }
-        
-        .cert-details {
-            font-size: 9pt;
-            color: #555;
-        }
-        
-        strong {
-            font-weight: bold;
-        }
-        
+
         .job-section {
-            page-break-inside: avoid;
-            break-inside: avoid;
+          page-break-inside: avoid;
+          break-inside: avoid;
         }
-        
+
         .project-section {
-            page-break-inside: avoid;
-            break-inside: avoid;
+          page-break-inside: avoid;
+          break-inside: avoid;
         }
-        
-        @media print {
-            body {
-                padding: 0.35in;
-            }
-            
-            .summary-section {
-                page-break-inside: avoid;
-                break-inside: avoid;
-            }
-            
-            .job-section {
-                page-break-inside: avoid;
-                break-inside: avoid;
-            }
-            
-            .project-section {
-                page-break-inside: avoid;
-                break-inside: avoid;
-            }
-            
-            .cert-section {
-                page-break-inside: avoid;
-                break-inside: avoid;
-            }
-            
-            .skills-container {
-                page-break-inside: avoid;
-                break-inside: avoid;
-            }
-            
-            h2 {
-                page-break-after: avoid;
-                break-after: avoid;
-            }
+
+        .cert-section {
+          page-break-inside: avoid;
+          break-inside: avoid;
         }
+
+        .skills-container {
+          page-break-inside: avoid;
+          break-inside: avoid;
+        }
+
+        h2 {
+          page-break-after: avoid;
+          break-after: avoid;
+        }
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Fady Faheem</h1>
     <div class="contact-info">
-        Fort Worth, TX | <a href="mailto:fadyfaheem@hotmail.com">fadyfaheem@hotmail.com</a> | +1 (682) 717-6391<br>
-        <a href="https://github.com/FadyFaheem">github.com/FadyFaheem</a> | <a href="https://linkedin.com/in/fady-faheem/">linkedin.com/in/fady-faheem</a> | <a href="https://fadyfaheem.com">fadyfaheem.com</a>
+      Fort Worth, TX |
+      <a href="mailto:fadyfaheem@hotmail.com">fadyfaheem@hotmail.com</a> | +1
+      (682) 717-6391<br />
+      <a href="https://github.com/FadyFaheem">github.com/FadyFaheem</a> |
+      <a href="https://linkedin.com/in/fady-faheem/"
+        >linkedin.com/in/fady-faheem</a
+      >
+      | <a href="https://fadyfaheem.com">fadyfaheem.com</a>
     </div>
 
     <h2>Professional Summary</h2>
     <div class="summary-section">
-        <p class="summary">
-            Software engineer with <strong>3 years</strong> delivering cloud-native products and automation in Python, JavaScript/TypeScript, C#, and SQL. Shipped containerized services, APIs, and data pipelines that deliver <strong>85% manual-work reduction, $248K+ savings, and 99.9% uptime</strong> for 50+ stakeholders. <strong>AWS Certified Cloud Practitioner</strong> with strong fundamentals in data structures, algorithms, and scalable architecture.
-        </p>
+      <p class="summary">
+        Software engineer with <strong>3 years</strong> delivering cloud-native
+        products and automation in Python, JavaScript/TypeScript, C#, and SQL.
+        Shipped containerized services, APIs, and data pipelines that deliver
+        <strong
+          >85% manual-work reduction, $248K+ savings, and 99.9% uptime</strong
+        >
+        for 50+ stakeholders.
+        <strong>AWS Certified Cloud Practitioner</strong> with strong
+        fundamentals in data structures, algorithms, and scalable architecture.
+      </p>
     </div>
 
     <h2>Technical Skills</h2>
     <div class="skills-container">
-        <div class="skills-section">
-            <span class="skills-category">Languages:</span>
-            <span class="skills-list">Python, JavaScript/TypeScript, C#, SQL, Kotlin, C++, VBA</span>
-        </div>
-        <div class="skills-section">
-            <span class="skills-category">Frameworks:</span>
-            <span class="skills-list">React, Node.js, FastAPI, Flask, .NET Core, Svelte, Angular</span>
-        </div>
-        <div class="skills-section">
-            <span class="skills-category">Cloud & DevOps:</span>
-            <span class="skills-list">Docker, Podman, Kubernetes, AWS, Azure DevOps, CI/CD, Git</span>
-        </div>
-        <div class="skills-section">
-            <span class="skills-category">Data & Storage:</span>
-            <span class="skills-list">SQL Server, MySQL, MongoDB, SQLite</span>
-        </div>
-        <div class="skills-section">
-            <span class="skills-category">Practices:</span>
-            <span class="skills-list">Agile/Scrum, REST APIs, Microservices, TDD, XML/YAML</span>
-        </div>
+      <div class="skills-section">
+        <span class="skills-category">Languages:</span>
+        <span class="skills-list"
+          >Python, JavaScript/TypeScript, C#, SQL, Kotlin, C++, VBA</span
+        >
+      </div>
+      <div class="skills-section">
+        <span class="skills-category">Frameworks:</span>
+        <span class="skills-list"
+          >React, Node.js, FastAPI, Flask, .NET Core, Svelte, Angular</span
+        >
+      </div>
+      <div class="skills-section">
+        <span class="skills-category">Cloud & DevOps:</span>
+        <span class="skills-list"
+          >Docker, Podman, Kubernetes, AWS, Azure DevOps, CI/CD, Git</span
+        >
+      </div>
+      <div class="skills-section">
+        <span class="skills-category">Data & Storage:</span>
+        <span class="skills-list">SQL Server, MySQL, MongoDB, SQLite</span>
+      </div>
+      <div class="skills-section">
+        <span class="skills-category">Practices:</span>
+        <span class="skills-list"
+          >Agile/Scrum, REST APIs, Microservices, TDD, XML/YAML</span
+        >
+      </div>
     </div>
 
     <h2>Professional Experience</h2>
-    
+
     <div class="job-section">
-        <div class="job-header">
-            <span class="job-company">FedEx Supply Chain</span>
-            <span class="job-dates">Sep 2025 - Present</span>
-        </div>
-        <div class="job-location"><em>Business Analyst III</em> • Coppell, TX</div>
-        <ul>
-            <li>Deployed containerized full-stack applications on <strong>Docker/Podman + Kubernetes</strong> with SQL Server and MongoDB, supporting 50+ business analytics users at <strong>99.9% uptime</strong>.</li>
-            <li>Architected <strong>Python ETL pipelines processing 100K+ records/day</strong> with XML/YAML configs, cutting reporting prep by <strong>85%</strong> and enabling real-time KPI visibility for <strong>50+</strong> stakeholders.</li>
-            <li>Developed <strong>Flask/FastAPI REST APIs</strong> integrating with JDA BlueYonder WMS and ReverseLogix, eliminating <strong>47% of manual workflows</strong> and reducing errors by 30% across 3 distribution centers.</li>
-            <li>Designed and deployed a <strong>React + Python QR-code warehouse management system</strong> that improved inventory accuracy from <strong>87% to 98%</strong> and reduced cycle count time by <strong>60%</strong>.</li>
-            <li>Implemented <strong>Azure DevOps CI/CD pipelines</strong> with Git for SQL deployments, reducing production incidents by <strong>60%</strong> and accelerating releases from monthly to weekly.</li>
-        </ul>
+      <div class="job-header">
+        <span class="job-company">FedEx Supply Chain</span>
+        <span class="job-dates">Sep 2025 - Present</span>
+      </div>
+      <div class="job-location">
+        <em>Business Analyst III</em> • Coppell, TX
+      </div>
+      <ul>
+        <li>
+          Deployed containerized full-stack applications on
+          <strong>Docker/Podman + Kubernetes</strong> with SQL Server and
+          MongoDB, supporting 50+ business analytics users at
+          <strong>99.9% uptime</strong>.
+        </li>
+        <li>
+          Architected
+          <strong>Python ETL pipelines processing 100K+ records/day</strong>
+          with XML/YAML configs, cutting reporting prep by
+          <strong>85%</strong> and enabling real-time KPI visibility for
+          <strong>50+</strong> stakeholders.
+        </li>
+        <li>
+          Developed <strong>Flask/FastAPI REST APIs</strong> integrating with
+          JDA BlueYonder WMS and ReverseLogix, eliminating
+          <strong>47% of manual workflows</strong> and reducing errors by 30%
+          across 3 distribution centers.
+        </li>
+        <li>
+          Designed and deployed a
+          <strong>React + Python QR-code warehouse management system</strong>
+          that improved inventory accuracy from <strong>87% to 98%</strong> and
+          reduced cycle count time by <strong>60%</strong>.
+        </li>
+        <li>
+          Implemented <strong>Azure DevOps CI/CD pipelines</strong> with Git for
+          SQL deployments, reducing production incidents by
+          <strong>60%</strong> and accelerating releases from monthly to weekly.
+        </li>
+      </ul>
     </div>
 
     <div class="job-section">
-        <div class="job-header">
-            <span class="job-company">FedEx Supply Chain</span>
-            <span class="job-dates">May 2025 - Sep 2025</span>
-        </div>
-        <div class="job-location"><em>Automation Technician</em> • Coppell, TX</div>
-        <ul>
-            <li>Delivered <strong>Python CLI/GUI apps (Tkinter/Qt)</strong> with MySQL processing 10K+ device records/day, slashing parsing time <strong>35%</strong> while driving <strong>99.8%</strong> accuracy.</li>
-            <li>Automated device resets with <strong>Python tooling</strong> integrating Samsung/Motorola/TCL APIs, <strong>halving factory reset cycles for 500+ devices/day</strong>.</li>
-            <li>Engineered <strong>Kotlin/Python IMEI barcode validation</strong> with network checks, cutting intake from <strong>2 minutes to 10 seconds</strong> and averting <strong>$2M+</strong> in tracking errors.</li>
-        </ul>
+      <div class="job-header">
+        <span class="job-company">FedEx Supply Chain</span>
+        <span class="job-dates">May 2025 - Sep 2025</span>
+      </div>
+      <div class="job-location">
+        <em>Automation Technician</em> • Coppell, TX
+      </div>
+      <ul>
+        <li>
+          Delivered <strong>Python CLI/GUI apps (Tkinter/Qt)</strong> with MySQL
+          processing 10K+ device records/day, slashing parsing time
+          <strong>35%</strong> while driving <strong>99.8%</strong> accuracy.
+        </li>
+        <li>
+          Automated device resets with
+          <strong>Python tooling</strong> integrating Samsung/Motorola/TCL APIs,
+          <strong>halving factory reset cycles for 500+ devices/day</strong>.
+        </li>
+        <li>
+          Engineered <strong>Kotlin/Python IMEI barcode validation</strong> with
+          network checks, cutting intake from
+          <strong>2 minutes to 10 seconds</strong> and averting
+          <strong>$2M+</strong> in tracking errors.
+        </li>
+      </ul>
     </div>
 
     <div class="job-section">
-        <div class="job-header">
-            <span class="job-company">Bell Helicopter (Textron)</span>
-            <span class="job-dates">Jul 2024 - May 2025</span>
-        </div>
-        <div class="job-location"><em>Media-IT Support Administrator</em> • Fort Worth, TX</div>
-        <ul>
-            <li>Engineered <strong>Flask APIs for Bell 525 Relentless avionics data</strong> (Collins/Garmin), cutting ingestion time <strong>40%</strong> and syncing flight training data across 12 simulators.</li>
-            <li>Drove adoption with <strong>React/Svelte/Angular interfaces</strong> used by 100+ staff, lifting tool adoption <strong>65%</strong> and cutting support tickets <strong>45%</strong>.</li>
-            <li>Delivered a <strong>.NET MAUI app</strong> for maintenance documentation, saving <strong>15 hours/week</strong> across teams.</li>
-        </ul>
+      <div class="job-header">
+        <span class="job-company">Bell Helicopter (Textron)</span>
+        <span class="job-dates">Jul 2024 - May 2025</span>
+      </div>
+      <div class="job-location">
+        <em>Media-IT Support Administrator</em> • Fort Worth, TX
+      </div>
+      <ul>
+        <li>
+          Engineered
+          <strong>Flask APIs for Bell 525 Relentless avionics data</strong>
+          (Collins/Garmin), cutting ingestion time <strong>40%</strong> and
+          syncing flight training data across 12 simulators.
+        </li>
+        <li>
+          Drove adoption with
+          <strong>React/Svelte/Angular interfaces</strong> used by 100+ staff,
+          lifting tool adoption <strong>65%</strong> and cutting support tickets
+          <strong>45%</strong>.
+        </li>
+        <li>
+          Delivered a <strong>.NET MAUI app</strong> for maintenance
+          documentation, saving <strong>15 hours/week</strong> across teams.
+        </li>
+      </ul>
     </div>
 
     <div class="job-section">
-        <div class="job-header">
-            <span class="job-company">Bell Helicopter (Textron)</span>
-            <span class="job-dates">May 2023 - Jul 2024</span>
-        </div>
-        <div class="job-location"><em>Training Support Administrator</em> • Fort Worth, TX</div>
-        <ul>
-            <li>Developed <strong>React + Node.js + SQL pilot scheduling app</strong>, reducing conflicts <strong>20%</strong> for 45+ aircraft and 80+ pilots.</li>
-            <li>Automated forecasting with <strong>VBA/Python</strong>, reclaiming <strong>15 hours/month</strong> and tightening accuracy on a <strong>$12M</strong> annual budget.</li>
-            <li>Deployed a <strong>Python (Flask, Pandas) tool-control system</strong> with SQLite, lowering tool loss by <strong>16%</strong> on <strong>$200K+</strong> in assets.</li>
-        </ul>
+      <div class="job-header">
+        <span class="job-company">Bell Helicopter (Textron)</span>
+        <span class="job-dates">May 2023 - Jul 2024</span>
+      </div>
+      <div class="job-location">
+        <em>Training Support Administrator</em> • Fort Worth, TX
+      </div>
+      <ul>
+        <li>
+          Developed <strong>React + Node.js + SQL pilot scheduling app</strong>,
+          reducing conflicts <strong>20%</strong> for 45+ aircraft and 80+
+          pilots.
+        </li>
+        <li>
+          Automated forecasting with <strong>VBA/Python</strong>, reclaiming
+          <strong>15 hours/month</strong> and tightening accuracy on a
+          <strong>$12M</strong> annual budget.
+        </li>
+        <li>
+          Deployed a
+          <strong>Python (Flask, Pandas) tool-control system</strong> with
+          SQLite, lowering tool loss by <strong>16%</strong> on
+          <strong>$200K+</strong> in assets.
+        </li>
+      </ul>
     </div>
 
     <div class="job-section">
-        <div class="job-header">
-            <span class="job-company">Bell Helicopter (Textron)</span>
-            <span class="job-dates">Sep 2022 - May 2023</span>
-        </div>
-        <div class="job-location"><em>Software Engineering Intern</em> • Fort Worth, TX</div>
-        <ul>
-            <li>Developed a <strong>two-year digital transformation roadmap</strong> for training systems modernization, identifying cloud migration strategies that reduced legacy system dependencies by <strong>35%</strong>.</li>
-            <li>Prototyped <strong>Python data ingestion tools using REST APIs</strong>, later adopted and scaled by engineering teams to process <strong>50K+ training records/month</strong>.</li>
-        </ul>
+      <div class="job-header">
+        <span class="job-company">Bell Helicopter (Textron)</span>
+        <span class="job-dates">Sep 2022 - May 2023</span>
+      </div>
+      <div class="job-location">
+        <em>Software Engineering Intern</em> • Fort Worth, TX
+      </div>
+      <ul>
+        <li>
+          Developed a
+          <strong>two-year digital transformation roadmap</strong> for training
+          systems modernization, identifying cloud migration strategies that
+          reduced legacy system dependencies by <strong>35%</strong>.
+        </li>
+        <li>
+          Prototyped
+          <strong>Python data ingestion tools using REST APIs</strong>, later
+          adopted and scaled by engineering teams to process
+          <strong>50K+ training records/month</strong>.
+        </li>
+      </ul>
     </div>
 
     <h2>Education</h2>
     <div class="job-section">
-        <div class="job-header">
-            <span class="job-company">Western Governors University</span>
-            <span class="job-dates">Graduated Nov 2025</span>
-        </div>
-        <div class="job-location"><em>Bachelor of Science in Software Engineering</em> • <strong>GPA 3.8/4.0</strong></div>
-        <p class="summary" style="margin-top: 4pt;">
-            Relevant Coursework: Data Structures & Algorithms, Software Architecture, Databases, Web Development
-        </p>
+      <div class="job-header">
+        <span class="job-company">Western Governors University</span>
+        <span class="job-dates">Graduated Nov 2025</span>
+      </div>
+      <div class="job-location">
+        <em>Bachelor of Science in Software Engineering</em> •
+        <strong>GPA 3.8/4.0</strong>
+      </div>
+      <p class="summary" style="margin-top: 4pt">
+        Relevant Coursework: Data Structures & Algorithms, Software
+        Architecture, Databases, Web Development
+      </p>
     </div>
 
     <h2>Technical Projects</h2>
-    
+
     <div class="project-section">
-        <div class="project-header">
-            <span class="project-name">FrameCluster (Kickstarter Campaign)</span>
-            <span class="project-tech">3D Design, Distributed Systems | <a href="https://www.kickstarter.com/projects/fady-faheem/framecluster">Kickstarter</a></span>
-        </div>
-        <ul>
-            <li>Launched <strong>FrameCluster</strong>, repurposing Framework laptop boards into <strong>rack-mounted clusters</strong> to lower hardware costs and reduce e-waste for distributed workloads.</li>
-            <li>Engineered modular <strong>10" and 19" 3D-printed racks</strong> with end-to-end docs and <strong>Kubernetes orchestration workflows</strong>, enabling backers to stand up clusters without custom fabrication.</li>
-        </ul>
+      <div class="project-header">
+        <span class="project-name">NW Diesel Co. Website</span>
+        <span class="project-tech"
+          >Astro.js, Modern Web Development |
+          <a href="https://nwdieselco.com">nwdieselco.com</a></span
+        >
+      </div>
+      <ul>
+        <li>
+          Built a modern, responsive website for a diesel company using
+          <strong>Astro.js</strong>, delivering fast page loads and optimal SEO
+          performance.
+        </li>
+        <li>
+          Implemented clean, professional design with mobile-first approach,
+          showcasing services and improving online presence for the business.
+        </li>
+      </ul>
     </div>
 
     <div class="project-section">
-        <div class="project-header">
-            <span class="project-name">Raspberry Pi Vending Machine</span>
-            <span class="project-tech">Python, SQLite, Hardware Integration | <a href="https://www.raspberrypi.com/news/refurbished-vending-machine/">raspberrypi.com/magpi</a></span>
-        </div>
-        <ul>
-            <li>Built a production-ready vending system with <strong>Python GPIO control, payments, and SQLite inventory</strong>, enabling unattended sales and earning a feature in <strong>Raspberry Pi MagPi Magazine #130</strong>.</li>
-            <li>Added <strong>REST monitoring</strong> with <strong>real-time inventory alerts</strong> and sales analytics to cut stockouts and manual checks.</li>
-        </ul>
+      <div class="project-header">
+        <span class="project-name">Raspberry Pi Vending Machine</span>
+        <span class="project-tech"
+          >Python, SQLite, Hardware Integration |
+          <a
+            href="https://www.raspberrypi.com/news/refurbished-vending-machine/"
+            >raspberrypi.com/magpi</a
+          ></span
+        >
+      </div>
+      <ul>
+        <li>
+          Built a production-ready vending system with
+          <strong>Python GPIO control, payments, and SQLite inventory</strong>,
+          enabling unattended sales and earning a feature in
+          <strong>Raspberry Pi MagPi Magazine #130</strong>.
+        </li>
+        <li>
+          Added <strong>REST monitoring</strong> with
+          <strong>real-time inventory alerts</strong> and sales analytics to cut
+          stockouts and manual checks.
+        </li>
+      </ul>
     </div>
 
     <div class="project-section">
-        <div class="project-header">
-            <span class="project-name">Personal Portfolio</span>
-            <span class="project-tech">React, Node.js, Tailwind CSS | <a href="https://fadyfaheem.com">fadyfaheem.com</a></span>
-        </div>
-        <ul>
-            <li>Developed responsive full-stack site with <strong>SEO and CI/CD</strong>, achieving <strong>98 PageSpeed score</strong>.</li>
-        </ul>
+      <div class="project-header">
+        <span class="project-name">Personal Portfolio</span>
+        <span class="project-tech"
+          >React, Node.js, Tailwind CSS |
+          <a href="https://fadyfaheem.com">fadyfaheem.com</a></span
+        >
+      </div>
+      <ul>
+        <li>
+          Developed responsive full-stack site with
+          <strong>SEO and CI/CD</strong>, achieving
+          <strong>98 PageSpeed score</strong>.
+        </li>
+      </ul>
     </div>
 
     <h2>Awards & Honors</h2>
     <div class="cert-section">
-        <div class="job-header">
-            <div class="cert-name">SkillsUSA - Cybersecurity</div>
-            <div class="job-dates">National Finalist | 2023</div>
-        </div>
-        <div class="cert-details">Awarded for demonstrating network security, threat analysis, and hardening expertise.</div>
+      <div class="job-header">
+        <div class="cert-name">SkillsUSA - Cybersecurity</div>
+        <div class="job-dates">National Finalist | 2023</div>
+      </div>
+      <div class="cert-details">
+        Awarded for demonstrating network security, threat analysis, and
+        hardening expertise.
+      </div>
     </div>
 
     <h2>Certifications</h2>
     <div class="cert-section">
-        <div class="cert-item">
-            <div class="job-header">
-                <span class="cert-name">Amazon Web Services (AWS) Certified Cloud Practitioner</span>
-                <span class="job-dates">Nov 2025 - Nov 2028</span>
-            </div>
-            <div class="cert-details">Credential ID: 9554d68cedcc463a9ac4801a3b7e7a8a</div>
+      <div class="cert-item">
+        <div class="job-header">
+          <span class="cert-name"
+            >Amazon Web Services (AWS) Certified Cloud Practitioner</span
+          >
+          <span class="job-dates">Nov 2025 - Nov 2028</span>
         </div>
-        <div class="cert-item">
-            <div class="job-header">
-                <span class="cert-name">ITIL 4 Foundation</span>
-                <span class="job-dates">Nov 2025 - Nov 2028</span>
-            </div>
-            <div class="cert-details">Credential ID: GR671829753FF</div>
+        <div class="cert-details">
+          Credential ID: 9554d68cedcc463a9ac4801a3b7e7a8a
         </div>
-        <div class="cert-item">
-            <div class="job-header">
-                <span class="cert-name">CompTIA Tech+</span>
-                <span class="job-dates">Issued Aug 2025</span>
-            </div>
-            <div class="cert-details">Credential ID: FWV04L7Y7NRQYRF2</div>
+      </div>
+      <div class="cert-item">
+        <div class="job-header">
+          <span class="cert-name">ITIL 4 Foundation</span>
+          <span class="job-dates">Nov 2025 - Nov 2028</span>
         </div>
+        <div class="cert-details">Credential ID: GR671829753FF</div>
+      </div>
+      <div class="cert-item">
+        <div class="job-header">
+          <span class="cert-name">CompTIA Tech+</span>
+          <span class="job-dates">Issued Aug 2025</span>
+        </div>
+        <div class="cert-details">Credential ID: FWV04L7Y7NRQYRF2</div>
+      </div>
     </div>
-
-</body>
+  </body>
 </html>

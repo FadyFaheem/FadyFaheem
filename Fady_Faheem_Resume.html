@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fady Faheem – Software Engineer</title>
+    <style>
+      @page {
+        size: letter;
+        margin: 0.4in 0.5in;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      body {
+        font-family: "Calibri", "Arial", "Helvetica", sans-serif;
+        font-size: 10pt;
+        line-height: 1.22;
+        color: #1a1a1a;
+        background: #fff;
+      }
+
+      @media screen {
+        body {
+          max-width: 8.5in;
+          margin: 0 auto;
+          padding: 0.4in 0.5in;
+        }
+      }
+
+      a {
+        color: #0b57d0;
+        text-decoration: none;
+      }
+
+      h1 {
+        font-size: 22pt;
+        line-height: 1.1;
+      }
+
+      .contact {
+        margin-top: 2pt;
+        color: #333;
+      }
+
+      .summary {
+        margin-top: 5pt;
+      }
+
+      h2 {
+        font-size: 10.5pt;
+        text-transform: uppercase;
+        letter-spacing: 0.5pt;
+        border-bottom: 1.2px solid #1a1a1a;
+        padding-bottom: 1pt;
+        margin: 7pt 0 2pt;
+      }
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 12pt;
+      }
+
+      .org {
+        margin-top: 4pt;
+        font-size: 10.5pt;
+      }
+
+      .org .name,
+      .project .name,
+      .label {
+        font-weight: bold;
+      }
+
+      .role {
+        margin-top: 2pt;
+      }
+
+      .role .title {
+        font-weight: bold;
+        font-style: italic;
+      }
+
+      .dates {
+        white-space: nowrap;
+        color: #444;
+      }
+
+      ul {
+        margin: 1pt 0 0 13pt;
+      }
+
+      li {
+        margin-bottom: 0.5pt;
+        padding-left: 1pt;
+        break-inside: avoid;
+      }
+
+      .project {
+        margin-top: 3pt;
+      }
+
+      .project .tech {
+        font-style: italic;
+        color: #444;
+      }
+
+      .project .row > :last-child {
+        white-space: nowrap;
+      }
+
+      .lines > div {
+        margin-top: 1pt;
+      }
+
+      h2,
+      .org,
+      .role,
+      .project .row {
+        break-after: avoid;
+        page-break-after: avoid;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Fady Faheem</h1>
+      <div class="contact">
+        Fort Worth, TX (open to relocation) · +1 (682) 717-6391 ·
+        <a href="mailto:fadyfaheem@hotmail.com">fadyfaheem@hotmail.com</a><br />
+        <a href="https://github.com/FadyFaheem">github.com/FadyFaheem</a> ·
+        <a href="https://linkedin.com/in/fady-faheem/">linkedin.com/in/fady-faheem</a>
+        · <a href="https://fadyfaheem.com">fadyfaheem.com</a>
+      </div>
+      <p class="summary">
+        Software engineer with <strong>3+ years</strong> building production
+        full-stack and applied-AI systems at FedEx and Bell, usually as the lead
+        or sole developer. Core stack: Python, TypeScript/React, SQL, and Google
+        Cloud.
+      </p>
+    </header>
+
+    <section>
+      <h2>Experience</h2>
+
+      <div class="org row">
+        <span><span class="name">FedEx</span> · Dallas–Fort Worth, TX</span>
+        <span class="dates">May 2025 – Present</span>
+      </div>
+
+      <div class="role row">
+        <span
+          ><span class="title">Ops Emerging Technology Developer</span> · FedEx
+          Office</span
+        >
+        <span class="dates">Aug 2026 – Present</span>
+      </div>
+      <ul>
+        <li>
+          Lead architect and developer of <strong>Labor Forecast AI</strong> on
+          Vertex AI, forecasting staffing across FedEx Office locations; first
+          working build after earlier ML attempts stalled. Workforce planning
+          projects <strong>~$10M/yr</strong> in savings.
+        </li>
+        <li>
+          Building a <strong>Document AI</strong> pipeline that extracts lease
+          terms, dates, and obligations to cut manual lease review.
+        </li>
+      </ul>
+
+      <div class="role row">
+        <span
+          ><span class="title">Senior Business Analyst III</span> · FedEx Supply
+          Chain</span
+        >
+        <span class="dates">Sep 2025 – Jul 2026</span>
+      </div>
+      <ul>
+        <li>
+          Owned <strong>MWMS</strong> end to end (React, Flask, Redis,
+          PostgreSQL), a warehouse management system serving
+          <strong>50+ users</strong> across <strong>6+ client contracts</strong>,
+          with <strong>500K+ items</strong> moved in and out.
+        </li>
+        <li>
+          Cut new-contract enrollment from <strong>~6 months</strong> on the
+          enterprise WMS to <strong>under an hour</strong> in MWMS.
+        </li>
+        <li>
+          Trained the <strong>custom YOLO model</strong> behind a laser
+          part-positioning vision system, cutting operator errors
+          <strong>88%</strong>.
+        </li>
+        <li>
+          Built ETL pipelines ingesting <strong>100K+ WMS records/day</strong>
+          from 3 distribution centers; cut manual report prep ~60%.
+        </li>
+        <li>
+          Built <strong>FDG LogiX</strong> (React, Flask, PostgreSQL) for 25
+          users, turning manual parts requests into a tracked workflow.
+        </li>
+      </ul>
+
+      <div class="role row">
+        <span
+          ><span class="title">Automation Technician</span> · FedEx Supply
+          Chain</span
+        >
+        <span class="dates">May 2025 – Aug 2025</span>
+      </div>
+      <ul>
+        <li>
+          Built a Python device-reset tool with Samsung, Motorola, and TCL
+          teams: <strong>5 min → 45 sec</strong> each, 500+ devices/day.
+        </li>
+        <li>
+          Built a Kotlin IMEI scanner that verifies device ownership, cutting
+          intake from <strong>2 min to under 10 sec</strong> per device.
+        </li>
+      </ul>
+
+      <div class="org row">
+        <span><span class="name">Bell Textron</span> · Fort Worth, TX</span>
+        <span class="dates">Sep 2022 – May 2025</span>
+      </div>
+
+      <div class="role row">
+        <span class="title">Media-IT Support Administrator</span>
+        <span class="dates">Jul 2024 – May 2025</span>
+      </div>
+      <ul>
+        <li>
+          Sole developer of the Bell 525 <strong>IVHM</strong> tool, still in
+          use, which communicates with the aircraft’s vehicle-health-monitoring
+          system; rebuilt it from a Python desktop app into a
+          <strong>Svelte</strong> web app with a SQL Server backend.
+        </li>
+        <li>
+          Led a <strong>6-person team</strong> (2 developers, 4 artists)
+          rebuilding <strong>VIPER 2.0</strong>, a Unity (C#) 3D helicopter
+          trainer for Bell Training Academy (12K+ trainees/yr); built a C# tool
+          syncing courseware to 150+ instructor PCs.
+        </li>
+        <li>
+          Built <strong>BTA Regulatory</strong> (React, Flask, PostgreSQL), a
+          compliance platform 10 staff use to track licensing and ITAR.
+        </li>
+        <li>
+          Designed 3D-printed Bell 525 parts and tooling (Fusion 360), e.g., a
+          <strong>&lt;$20</strong> rotor-hub transmission lock replacing a
+          $4,000 OEM part with a 1-year lead time; <strong>$48K+/yr</strong> in
+          parts savings.
+        </li>
+      </ul>
+
+      <div class="role row">
+        <span class="title"
+          >Training Support Administrator · Software Developer Co-Op · IT
+          Software Intern</span
+        >
+        <span class="dates">Sep 2022 – Jul 2024</span>
+      </div>
+      <ul>
+        <li>
+          Built a Python (Flask) tool-control system that cut tool loss
+          <strong>16%</strong> across $200K+ in assets.
+        </li>
+      </ul>
+
+      <div class="org row">
+        <span
+          ><span class="name">Edkit Studios</span> · Unity Game Developer
+          Intern</span
+        >
+        <span class="dates">Aug 2021 – Sep 2022</span>
+      </div>
+      <ul>
+        <li>
+          Built 2D/3D Unity games and designed <strong>Math Hunt</strong>, an
+          AR/VR math game that was a SkillsUSA Texas finalist.
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="project">
+        <div class="row">
+          <span
+            ><span class="name">jda-mcp</span> · open-source MCP server for Blue
+            Yonder (JDA) WMS · <span class="tech">TypeScript</span></span
+          >
+          <a href="https://github.com/FadyFaheem/jda-mcp"
+            >github.com/FadyFaheem/jda-mcp</a
+          >
+        </div>
+        <ul>
+          <li>
+            Gives AI agents safe access to warehouse data via 27 tools: MOCA TCP
+            and HTTPS clients, a read-only guard that catches writes hidden in
+            CTEs or comments, encrypted credentials, and human-approved writes
+            that never auto-retry.
+          </li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="row">
+          <span
+            ><span class="name">Raspberry Pi Vending Machine</span> ·
+            <span class="tech">Java, MariaDB, Arduino</span></span
+          >
+          <span
+            >Featured in
+            <a
+              href="https://www.raspberrypi.com/news/refurbished-vending-machine/"
+              >The MagPi #130</a
+            >, Tom’s Hardware, PC Gamer</span
+          >
+        </div>
+        <ul>
+          <li>
+            Revived a broken vending machine using a Raspberry Pi 4, Java, a
+            bill acceptor, and Arduino-driven relays.
+          </li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="row">
+          <span
+            ><span class="name">REKT-Mini</span> · rotary-engine compression
+            tester · <span class="tech">C++, ATtiny85, KiCad</span></span
+          >
+          <a href="https://github.com/FadyFaheem/REKT-Mini"
+            >github.com/FadyFaheem/REKT-Mini</a
+          >
+        </div>
+        <ul>
+          <li>
+            Designed a custom PCB and ATtiny85 firmware that auto-zeroes the
+            sensor, finds each rotor face’s compression peak with hysteresis, and
+            derives cranking RPM; ~$30 to build vs. $200+ commercial testers.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="lines">
+        <div>
+          <span class="label">Languages:</span> Python, TypeScript/JavaScript,
+          SQL, C#, Kotlin, Java, C/C++
+        </div>
+        <div>
+          <span class="label">Frameworks &amp; data:</span> React, Svelte,
+          Flask, FastAPI, Node.js, Unity; PostgreSQL, Redis, SQL Server, MySQL,
+          MariaDB
+        </div>
+        <div>
+          <span class="label">Cloud, AI &amp; tools:</span> Google Cloud (Vertex
+          AI, Document AI), AWS, Docker, GitHub Actions, YOLO, OpenCV, MCP, Git
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education &amp; Awards</h2>
+      <div class="lines">
+        <div>
+          <span class="label">Western Governors University</span> · B.S.
+          Software Engineering (Nov 2025) · M.B.A., IT Management (May 2026)
+        </div>
+        <div>
+          AWS Certified Cloud Practitioner (2025) · SkillsUSA Cybersecurity,
+          <strong>National 1st Place</strong> (2023) · Bilingual: English, Arabic
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

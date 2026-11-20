@@ -24,7 +24,7 @@
       body {
         font-family: "Calibri", "Arial", "Helvetica", sans-serif;
         font-size: 10pt;
-        line-height: 1.22;
+        line-height: 1.25;
         color: #1a1a1a;
         background: #fff;
       }
@@ -47,13 +47,23 @@
         line-height: 1.1;
       }
 
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 18pt;
+      }
+
       .contact {
-        margin-top: 2pt;
+        text-align: right;
+        font-size: 9.5pt;
+        line-height: 1.3;
+        white-space: nowrap;
         color: #333;
       }
 
       .summary {
-        margin-top: 5pt;
+        margin-top: 3pt;
       }
 
       h2 {
@@ -62,7 +72,7 @@
         letter-spacing: 0.5pt;
         border-bottom: 1.2px solid #1a1a1a;
         padding-bottom: 1pt;
-        margin: 7pt 0 2pt;
+        margin: 8pt 0 2pt;
       }
 
       .row {
@@ -134,21 +144,23 @@
     </style>
   </head>
   <body>
-    <header>
-      <h1>Fady Faheem</h1>
+    <header class="header">
+      <div>
+        <h1>Fady Faheem</h1>
+        <p class="summary">
+          Software engineer with <strong>3+ years</strong> building AI and
+          full-stack tools for warehouse staff, workforce planners, and aviation
+          trainees.
+        </p>
+      </div>
       <div class="contact">
-        Fort Worth, TX (open to relocation) · +1 (682) 717-6391 ·
+        Fort Worth, TX · Open to relocation<br />
+        +1 (682) 717-6391 ·
         <a href="mailto:fadyfaheem@hotmail.com">fadyfaheem@hotmail.com</a><br />
         <a href="https://github.com/FadyFaheem">github.com/FadyFaheem</a> ·
+        <a href="https://fadyfaheem.com">fadyfaheem.com</a><br />
         <a href="https://linkedin.com/in/fady-faheem/">linkedin.com/in/fady-faheem</a>
-        · <a href="https://fadyfaheem.com">fadyfaheem.com</a>
       </div>
-      <p class="summary">
-        Software engineer with <strong>3+ years</strong> building production
-        full-stack and applied-AI systems at FedEx and Bell, usually as the lead
-        or sole developer. Core stack: Python, TypeScript/React, SQL, and Google
-        Cloud.
-      </p>
     </header>
 
     <section>
@@ -169,9 +181,9 @@
       <ul>
         <li>
           Lead architect and developer of <strong>Labor Forecast AI</strong> on
-          Vertex AI, forecasting staffing across FedEx Office locations; first
-          working build after earlier ML attempts stalled. Workforce planning
-          projects <strong>~$10M/yr</strong> in savings.
+          Vertex AI, forecasting staffing across FedEx Office locations; in pilot
+          UAT with workforce planners, who project <strong>~$10M/yr</strong> in
+          savings.
         </li>
         <li>
           Building a <strong>Document AI</strong> pipeline that extracts lease
@@ -194,8 +206,10 @@
           with <strong>500K+ items</strong> moved in and out.
         </li>
         <li>
-          Cut new-contract enrollment from <strong>~6 months</strong> on the
-          enterprise WMS to <strong>under an hour</strong> in MWMS.
+          Cut new-contract setup from <strong>~6 months</strong> (IT standing up
+          a corporate WMS instance) to <strong>under an hour</strong> by
+          generating a PostgreSQL schema for each contract, keeping its data
+          separate and easy to import and export.
         </li>
         <li>
           Trained the <strong>custom YOLO model</strong> behind a laser
@@ -205,10 +219,6 @@
         <li>
           Built ETL pipelines ingesting <strong>100K+ WMS records/day</strong>
           from 3 distribution centers; cut manual report prep ~60%.
-        </li>
-        <li>
-          Built <strong>FDG LogiX</strong> (React, Flask, PostgreSQL) for 25
-          users, turning manual parts requests into a tracked workflow.
         </li>
       </ul>
 
@@ -299,6 +309,46 @@
       <div class="project">
         <div class="row">
           <span
+            ><span class="name">Stream32</span> · open-source ESP32 stream deck
+            · <span class="tech">JavaScript (Electron), C</span></span
+          >
+          <a href="https://github.com/FadyFaheem/Stream32"
+            >github.com/FadyFaheem/Stream32</a
+          >
+        </div>
+        <ul>
+          <li>
+            Built an Electron app (Windows, macOS, Linux) and ESP32 firmware
+            that turn off-the-shelf touch displays into stream decks, with USB
+            flashing and action plugins; <strong>100 stars</strong>, 42
+            releases, <strong>3,700+ downloads</strong>; sponsored by PCBWay.
+          </li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="row">
+          <span
+            ><span class="name">FuCad</span> · Fusion 360-style fork of FreeCAD
+            · <span class="tech">C++, Qt</span></span
+          >
+          <a href="https://github.com/FadyFaheem/FuCad"
+            >github.com/FadyFaheem/FuCad</a
+          >
+        </div>
+        <ul>
+          <li>
+            Reworked FreeCAD’s interface into a Fusion 360-style workflow: a
+            ribbon, a timeline that rolls features back, and merged extrude/cut
+            tools, keeping its kernel, Python API, and file format intact;
+            <strong>44 stars</strong>, 22 releases.
+          </li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <div class="row">
+          <span
             ><span class="name">jda-mcp</span> · open-source MCP server for Blue
             Yonder (JDA) WMS · <span class="tech">TypeScript</span></span
           >
@@ -310,49 +360,7 @@
           <li>
             Gives AI agents safe access to warehouse data via 27 tools: MOCA TCP
             and HTTPS clients, a read-only guard that catches writes hidden in
-            CTEs or comments, encrypted credentials, and human-approved writes
-            that never auto-retry.
-          </li>
-        </ul>
-      </div>
-
-      <div class="project">
-        <div class="row">
-          <span
-            ><span class="name">Raspberry Pi Vending Machine</span> ·
-            <span class="tech">Java, MariaDB, Arduino</span></span
-          >
-          <span
-            >Featured in
-            <a
-              href="https://www.raspberrypi.com/news/refurbished-vending-machine/"
-              >The MagPi #130</a
-            >, Tom’s Hardware, PC Gamer</span
-          >
-        </div>
-        <ul>
-          <li>
-            Revived a broken vending machine using a Raspberry Pi 4, Java, a
-            bill acceptor, and Arduino-driven relays.
-          </li>
-        </ul>
-      </div>
-
-      <div class="project">
-        <div class="row">
-          <span
-            ><span class="name">REKT-Mini</span> · rotary-engine compression
-            tester · <span class="tech">C++, ATtiny85, KiCad</span></span
-          >
-          <a href="https://github.com/FadyFaheem/REKT-Mini"
-            >github.com/FadyFaheem/REKT-Mini</a
-          >
-        </div>
-        <ul>
-          <li>
-            Designed a custom PCB and ATtiny85 firmware that auto-zeroes the
-            sensor, finds each rotor face’s compression peak with hysteresis, and
-            derives cranking RPM; ~$30 to build vs. $200+ commercial testers.
+            CTEs or comments, and human-approved writes that never auto-retry.
           </li>
         </ul>
       </div>
@@ -363,16 +371,16 @@
       <div class="lines">
         <div>
           <span class="label">Languages:</span> Python, TypeScript/JavaScript,
-          SQL, C#, Kotlin, Java, C/C++
+          SQL, C/C++, C#, Kotlin, Java
         </div>
         <div>
           <span class="label">Frameworks &amp; data:</span> React, Svelte,
-          Flask, FastAPI, Node.js, Unity; PostgreSQL, Redis, SQL Server, MySQL,
-          MariaDB
+          Flask, FastAPI, Node.js, Electron, Qt; PostgreSQL, Redis, SQL Server,
+          MySQL
         </div>
         <div>
           <span class="label">Cloud, AI &amp; tools:</span> Google Cloud (Vertex
-          AI, Document AI), AWS, Docker, GitHub Actions, YOLO, OpenCV, MCP, Git
+          AI, Document AI), AWS, Docker, GitHub Actions, YOLO, OpenCV, MCP, ESP32
         </div>
       </div>
     </section>
@@ -387,6 +395,13 @@
         <div>
           AWS Certified Cloud Practitioner (2025) · SkillsUSA Cybersecurity,
           <strong>National 1st Place</strong> (2023) · Bilingual: English, Arabic
+        </div>
+        <div>
+          <span class="label">Press:</span> Raspberry Pi vending machine
+          featured in
+          <a href="https://www.raspberrypi.com/news/refurbished-vending-machine/"
+            >The MagPi #130</a
+          >, Tom’s Hardware, and PC Gamer (2023)
         </div>
       </div>
     </section>

@@ -1,37 +1,99 @@
-<h1 align="center">Fady Faheem</h1>
-<h3 align="center">Ops Emerging Technology Developer @ FedEx Office | Python, Unity, Embedded Systems, React | Featured in Raspberry Pi MagPi, Tom's Hardware, PC Gamer</h3>
-
-- Currently building **AI for labor forecasting and lease-document extraction (Vertex AI, Document AI)** at FedEx Office
-- At FedEx Supply Chain, built **computer vision systems (YOLO/OpenCV)**, **ESP32 IoT signage**, and **ETL pipelines processing 100K+ records/day**
-- Previously shipped **2D/3D games in Unity** at Edkit Studios and built **VIPER**, a 3D aircraft training platform at Bell Helicopter
-- All of my projects are available at [fadyfaheem.com](https://www.fadyfaheem.com)
-- How to reach me: **fadyfaheem@hotmail.com**
-- Know about my experiences - [Resume](https://github.com/FadyFaheem/FadyFaheem/blob/main/Fady_Faheem_Resume.pdf)
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/fady-faheem" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="fady-faheem" height="30" width="40" /></a>
+<p align="center">
+  <img src="assets/header.svg" width="100%" alt="Fady Faheem, Ops Emerging Technology Developer at FedEx Office: software for the physical world" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-<a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a>
-<a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="swift" width="40" height="40"/> </a>
-<a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
-<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
-<a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a>
-<a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
-<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
-<a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="flask" width="40" height="40"/> </a>
-<a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a>
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a>
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a>
+<p align="center">
+  <a href="https://github.com/FadyFaheem/FadyFaheem/blob/main/Fady_Faheem_Resume.pdf"><b>Resume</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/fady-faheem/"><b>LinkedIn</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.fadyfaheem.com"><b>fadyfaheem.com</b></a>
+  &nbsp;·&nbsp;
+  <a href="mailto:fadyfaheem@hotmail.com"><b>fadyfaheem@hotmail.com</b></a>
+  <br />
+  <sub>Fort Worth, TX · open to relocation</sub>
 </p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=fadyfaheem&label=Profile%20views&color=b40e0e&style=flat" alt="fadyfaheem" /> </p>
+I build software that has to work in the physical world: tools for Bell 525 helicopters, warehouse systems at FedEx, and an open-source ESP32 stream deck with thousands of downloads. Lately, that means applied AI on Google Cloud.
+
+## ⚡ Right now
+
+- **Labor Forecast AI** · I'm the lead architect and developer of a Vertex AI model that forecasts staffing across FedEx Office locations. It's in pilot UAT with workforce planners, who project about **$10M a year** in savings.
+- **Lease Document AI** · a Document AI pipeline that pulls terms, dates, and obligations out of leases so nobody has to read them line by line.
+- **[Stream32](https://github.com/FadyFaheem/Stream32)** · shipping new releases of my open-source ESP32 stream deck.
+
+## 🔩 Featured builds
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/FadyFaheem/Stream32">Stream32</a></h3>
+      <p>An open-source stream deck built from an off-the-shelf ESP32 touch display. The Electron app for Windows, macOS, and Linux flashes the firmware over USB and lays out pages of keys with plugin actions. Sponsored by PCBWay.</p>
+      <p><b>100 ★ · 42 releases · 3,700+ downloads</b></p>
+      <p><code>ESP32</code> <code>C</code> <code>Electron</code> <code>JavaScript</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/FadyFaheem/FuCad">FuCad</a></h3>
+      <p>FreeCAD, reworked to feel like Fusion 360: a ribbon, a timeline that rolls features back, and merged extrude/cut tools. The kernel, Python API, and file format stay intact, so existing documents and macros still work.</p>
+      <p><b>44 ★ · 22 releases</b></p>
+      <p><code>C++</code> <code>Qt</code> <code>GitHub Actions</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/FadyFaheem/jda-mcp">jda-mcp</a></h3>
+      <p>An MCP server that gives AI agents safe access to Blue Yonder (JDA) WMS: 27 tools, MOCA TCP and HTTPS clients, a read-only guard that catches writes hidden in CTEs or comments, and human-approved writes that never auto-retry.</p>
+      <p><code>TypeScript</code> <code>MCP</code> <code>Node.js</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/FadyFaheem/Foreshock">Foreshock</a></h3>
+      <p>Bearing-fault detection from vibration data, inspired by aircraft health monitoring. Envelope (Hilbert), FFT, and time-domain features feed a RandomForest, served by a Flask API with a React + TypeScript dashboard.</p>
+      <p><code>Python</code> <code>scikit-learn</code> <code>Flask</code> <code>React</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/FadyFaheem/REKT-Mini">REKT-Mini</a></h3>
+      <p>A rotary-engine compression tester on a custom PCB. ATtiny85 firmware auto-zeroes the pressure sensor, catches each rotor face's compression peak, and derives cranking RPM, for about $30 instead of $200+.</p>
+      <p><code>C++</code> <code>ATtiny85</code> <code>KiCad</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/FadyFaheem/JustAVendingMachine">Raspberry Pi Vending Machine</a></h3>
+      <p>A broken vending machine I brought back to life at 17 with a Raspberry Pi 4, Java, MariaDB, a bill acceptor, and Arduino-driven relays.</p>
+      <p><b>Featured in <a href="https://www.raspberrypi.com/news/refurbished-vending-machine/">The MagPi #130</a>, Tom's Hardware, and PC Gamer</b></p>
+      <p><code>Java</code> <code>MariaDB</code> <code>Raspberry Pi</code> <code>Arduino</code></p>
+    </td>
+  </tr>
+</table>
+
+**Also on the bench:** [Epilog-Camera](https://github.com/FadyFaheem/Epilog-Camera) (streams laser-cutter camera frames over a reverse-engineered protocol) · [Voxels](https://github.com/FadyFaheem/Voxels) (a modular clock) · [SuperSuite](https://github.com/FadyFaheem/SuperSuite) (a VS Code extension for NetSuite SuiteScript) · [DriftIt-VR](https://github.com/FadyFaheem/DriftIt-VR) (a Unity VR drifting game)
+
+## 🧭 Career
+
+```text
+$ git log --graph --oneline career
+* 2026  FedEx Office ......... Ops Emerging Technology Developer
+│       Labor Forecast AI on Vertex AI (pilot UAT) · lease Document AI pipeline
+* 2025  FedEx Supply Chain ... Automation Technician → Senior Business Analyst III
+│       MWMS: schema per contract, setup 6 months → under an hour · YOLO: −88% errors
+* 2022  Bell Textron ......... IT Software Intern → Media-IT Support Administrator
+│       Bell 525 IVHM tool · led VIPER 2.0 (Unity) · 3D-printed parts, $48K+/yr saved
+* 2021  Edkit Studios ........ Unity Game Developer Intern
+        Math Hunt, an AR/VR math game (SkillsUSA Texas finalist)
+```
+
+## 🔌 Stack
+
+<p align="center">
+  <img src="assets/pinout.svg" width="100%" alt="Stack pinout. Languages: Python, TypeScript, JavaScript, SQL, C, C++, C#, Java, Kotlin, Swift. Web: React, Svelte, Flask, FastAPI, Node.js, Electron. Data: PostgreSQL, SQL Server, Redis, MySQL. AI and cloud: Vertex AI, Document AI, YOLO, OpenCV, scikit-learn, MCP, Docker, AWS, CI/CD. Hardware and 3D: ESP32, ATtiny85, Raspberry Pi, KiCad, Fusion 360, Unity, AR/VR." />
+</p>
+
+## 🏆 Also
+
+- 🥇 **SkillsUSA Cybersecurity, National 1st Place** (2023)
+- 🎓 **B.S. Software Engineering** and **M.B.A., IT Management**, Western Governors University
+- ☁️ AWS Certified Cloud Practitioner
+- 🖨️ Designed a 3D-printed rotor-hub transmission lock for the Bell 525 that costs under $20 and replaced a $4,000 part with a one-year lead time
+- 🗣️ English and Arabic
+
+<p align="center"><img src="https://komarev.com/ghpvc/?username=fadyfaheem&label=Profile%20views&color=0f4a35&style=flat" alt="Profile views" /></p>

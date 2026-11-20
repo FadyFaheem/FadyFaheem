@@ -66,7 +66,7 @@ I build software that has to work in the physical world: tools for Bell 525 heli
   </tr>
 </table>
 
-**Also on the bench:** [Epilog-Camera](https://github.com/FadyFaheem/Epilog-Camera) (streams laser-cutter camera frames over a reverse-engineered protocol) · [Voxels](https://github.com/FadyFaheem/Voxels) (a modular clock) · [SuperSuite](https://github.com/FadyFaheem/SuperSuite) (a VS Code extension for NetSuite SuiteScript) · [DriftIt-VR](https://github.com/FadyFaheem/DriftIt-VR) (a Unity VR drifting game)
+**Also on the bench:** [Epilog-Camera](https://github.com/FadyFaheem/Epilog-Camera) (streams laser-cutter camera frames over a reverse-engineered protocol) · [Voxels](https://github.com/FadyFaheem/Voxels) (a modular clock) · [SuperSuite](https://github.com/FadyFaheem/SuperSuite) (a VS Code extension for NetSuite SuiteScript)
 
 ## 🧭 Career
 
